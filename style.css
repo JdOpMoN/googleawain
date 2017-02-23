@@ -1,0 +1,66 @@
+body{margin:0}
+
+body > *{
+}
+
+header{
+display: table;
+float:right;
+}
+header > *{
+display:inline;
+vertical-align: -10px
+}
+#mid{
+position:relative;
+top:120px;
+display: table;
+clear: both;
+margin: auto;
+height:300px;
+}
+#a{
+width:100%;
+}
+#b{
+position: absolute;
+left: 90px;
+}
+
+#c{
+position: absolute;
+right:90px
+}
+#mid>p{
+position: absolute;
+bottom: 0;
+left: 70px;
+}
+footer{
+background: #f2f2f2;
+position: fixed;
+bottom: 0px;
+width:100%;
+height:40px;
+border-top: 1px solid #e4e4e4;
+}
+footer > *{
+display: table;
+}
+#left > *{
+display: inline;
+margin-right:9px;
+vertical-align:-10px;
+}
+#right > *{
+display: inline;
+margin-right:9px;
+vertical-align:-10px;
+}
+#left{
+float: left;
+}
+#right{
+float: right;
+}
+
